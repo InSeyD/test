@@ -388,6 +388,45 @@ img {
   padding-top: 24px;
 }
 
+.hero__uppertitle {
+  font-size: 14px;
+  margin-top: 188px;
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 74px;
+  margin-top: 22px;
+  width: 51%;
+}
+
+.hero__subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 51%;
+  margin-top: 24px;
+}
+
+.hero__btn {
+  margin-top: 45px;
+  display: block;
+  color: #FFD723;
+  text-decoration: underline;
+  margin-left: 10px;
+  position: relative;
+}
+.hero__btn::after {
+  position: absolute;
+  content: "";
+  border: 5px solid transparent;
+  border-bottom-color: #FFD723;
+  left: -9px;
+  transform: rotate(90deg);
+  bottom: 4px;
+}
+
 .header {
   display: flex;
   height: 40px;
