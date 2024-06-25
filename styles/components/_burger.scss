@@ -1,0 +1,19 @@
+.burger {
+    width: 40px;
+    height: 40px;
+    background-color: #F5F6F7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.burger__line {
+    display: block;
+    width: 18px;
+    height: 2px;
+    background-color: #000000;
+    margin-bottom: 3px;
+    
+}
