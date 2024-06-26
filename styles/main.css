@@ -386,6 +386,7 @@ img {
   background-size: cover;
   color: #FFFFFF;
   padding-top: 24px;
+  padding-bottom: 250px;
 }
 
 .hero__uppertitle {
@@ -465,4 +466,127 @@ img {
   height: 2px;
   background-color: #000000;
   margin-bottom: 3px;
+}
+
+.partners-section {
+  position: relative;
+  top: -104px;
+  display: grid;
+}
+
+.partners__list {
+  display: flex;
+  background-color: #FFFFFF;
+  flex-wrap: wrap;
+  padding: 0 60px 60px 60px;
+  justify-self: flex-end;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.1450980392);
+}
+
+.partners__item {
+  margin-top: 60px;
+  margin-right: 30px;
+}
+
+.servise__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.servise__row-1 {
+  border-bottom: 1px solid rgba(33, 56, 66, 0.0941176471);
+  padding-bottom: 150px;
+  margin-bottom: 150px;
+}
+
+.servise__col {
+  display: flex;
+  flex-direction: column;
+}
+
+.servise__uppertitle {
+  margin-top: 120px;
+  margin-bottom: 29px;
+  color: rgba(77, 83, 60, 0.8980392157);
+  font-size: 14px;
+}
+
+.servise__title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+  color: #4D533C;
+  width: 99%;
+}
+
+.servise__text {
+  line-height: 26px;
+  color: rgba(33, 56, 66, 0.6);
+}
+
+.servise__btn {
+  margin-top: 42px;
+  display: block;
+  color: #D4D6D4;
+  text-decoration: underline;
+  margin-left: 10px;
+  position: relative;
+}
+.servise__btn::after {
+  position: absolute;
+  content: "";
+  border: 5px solid transparent;
+  border-bottom-color: #D4D6D4;
+  left: -9px;
+  transform: rotate(90deg);
+  bottom: 4px;
+}
+
+.servise__comment {
+  box-shadow: 0px 100px 100px 0px rgba(0, 0, 0, 0.1450980392);
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-top: 120px;
+  position: relative;
+  width: 474px;
+}
+
+.servise__content {
+  width: 475px;
+  height: 366px;
+  margin-right: 160px;
+}
+
+.servise__comment-text {
+  font-size: 24px;
+  font-style: italic;
+  line-height: 40px;
+  color: #4D533C;
+  width: 99%;
+}
+
+.servise__comment-icon {
+  position: absolute;
+  bottom: -10px;
+  left: 25px;
+}
+
+.servise__comment-author-info {
+  margin: 64px 0 74px 160px;
+}
+
+.servise__comment-author-name {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 33px;
+  color: #4D533C;
+  margin-bottom: 6px;
+}
+
+.servise__comment-author-job {
+  line-height: 24px;
+  color: #152934;
 }/*# sourceMappingURL=main.css.map */
