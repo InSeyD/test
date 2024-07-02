@@ -1,0 +1,36 @@
+.project__title {
+    max-width: 607px;
+    margin-bottom: 60px;
+}
+
+.project__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 322px;
+}
+
+.project__item {
+    padding: 30px;
+    min-width: 255px;
+    max-width: 255px;
+    height: 309px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project__item-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    color: #4D533C;
+    margin-bottom: 20px;
+}
+
+.project__item-text {
+    font-size: 14px;
+    color: #21384299;
+    line-height: 26px;
+}
