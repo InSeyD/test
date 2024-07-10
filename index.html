@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoSurf</title>
+</head>
+<body>
+    <div class="wrapper">
+        <section class="section hero-section">
+            <header class="header">
+                <div class="logo">
+                    <h1 class="logo__text">GO&nbsp; SURF</h1>
+                </div>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">
+                                <svg class="menu__icon">
+                                    <use xlink:href="./img/sprite.svg#menu-icon-1"></use>
+                                </svg>
+                                <span class="menu__text">Surf</span> 
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">
+                                <svg class="menu__icon">
+                                    <use xlink:href="./img/sprite.svg#menu-icon-2"></use>
+                                </svg>
+                                <span class="menu__text">Travel</span> 
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">
+                                <svg class="menu__icon">
+                                    <use xlink:href="./img/sprite.svg#menu-icon-3"></use>
+                                </svg>
+                                <span class="menu__text">Sleep</span> 
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">
+                                <svg class="menu__icon">
+                                    <use xlink:href="./img/sprite.svg#menu-icon-4"></use>
+                                </svg>
+                                <span class="menu__text">Shop</span> 
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#" class="search-btn">
+                    <svg class="search-icon">
+                        <use xlink:href="./img/sprite.svg#search">
+                    </svg>
+                </a>
+                <div class="time-local__wrapper">
+                    <div class="time">
+                        <span id="date"></span>
+                        <div class="time__row">
+                            <span id="month"></span>
+                            <span> | </span>
+                            <span id="year"></span>
+                        </div>
+                    </div>
+                    <div class="local">
+                        <svg class="local-icon">
+                            <use xlink:href="./img/sprite.svg#local">
+                        </svg>
+                        <span id="local"></span>
+                    </div>
+                </div>
+
+            </header>
+        </section>
+    </div>
+    <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
+    <script src="./scrypt.js"></script>
+</body>
+</html>
