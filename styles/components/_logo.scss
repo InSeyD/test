@@ -1,0 +1,33 @@
+.logo__text {
+    transform: rotate(270deg);
+    position: relative;
+    left: 3px;
+    top: 83px;
+    margin-bottom: 492px;
+    font-size: 60px;
+    white-space: nowrap;
+    user-select: none;
+    display: block;
+    font-weight: 600;
+
+    &::after {
+        position: absolute;
+        content: '';
+        width: 20px;
+        height: 1px;
+        background-color: #FFFFFF;
+        top: 32px;
+        left: 90px;
+    }
+
+    &::before {
+        position: absolute;
+        content: "";
+        width: 187px;
+        height: 168px;
+        background-color: #4AF6CD;
+        z-index: -1;
+        top: -53px;
+        left: 101px;
+    }
+}
