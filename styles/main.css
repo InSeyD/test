@@ -345,8 +345,6 @@ a {
 
 svg {
   display: block;
-  height: 100%;
-  width: 100%;
 }
 
 .hero-section {
@@ -356,6 +354,61 @@ svg {
   background-position: center center;
   display: flex;
   padding: 40px 40px 40px 0;
+  position: relative;
+  z-index: 1;
+  justify-content: space-between;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  position: relative;
+}
+
+.map {
+  position: absolute;
+  width: 811px;
+  top: -37px;
+  right: -39px;
+}
+
+.hero__prev-next-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.prev-icon,
+.next-icon {
+  width: 24px;
+  height: 20px;
+}
+
+.prev__btn {
+  margin-right: 21px;
+}
+
+.hero__bottom {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: end;
+}
+
+.next-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero__footer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+}
+
+.hero__list {
+  display: flex;
 }
 
 .header {
@@ -364,6 +417,8 @@ svg {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid transparent;
+  border-right-color: rgba(240, 248, 255, 0.3411764706);
 }
 
 .search-icon {
@@ -398,6 +453,18 @@ svg {
   width: 11px;
   height: 13px;
   margin-right: 8px;
+}
+
+.logo::after {
+  position: absolute;
+  content: "GO SURF";
+  left: 0px;
+  font-size: 192px;
+  font-weight: 700;
+  line-height: 147px;
+  color: rgba(255, 255, 255, 0.1294117647);
+  top: -34px;
+  z-index: -2;
 }
 
 .logo__text {
